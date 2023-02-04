@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr-code{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.qr_class{
+    background-color: white;
+    border-radius: 20px;
+    width: 305px;
+
+}
+
+.qr_class h2{
+    font-size: 22px;
+    padding: 20px;
+    width: 100%;
+    color: hsl(218, 44%, 22%);
+}
+.qr_class p{
+    padding: 0 20px;
+    width: 100%;
+    font-weight: lighter;
+    color: #afb3bc;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.img_qr{
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 270px
+    
+}
