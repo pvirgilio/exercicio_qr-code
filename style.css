@@ -58,3 +58,10 @@ body {
     border-radius: 10px;
     width: 270px
 }
+
+@media (max-width: 768px){
+    main{
+        width: 100%;
+    }
+    
+}
